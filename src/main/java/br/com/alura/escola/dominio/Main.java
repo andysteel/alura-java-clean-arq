@@ -1,4 +1,4 @@
-package br.com.alura.escola;
+package br.com.alura.escola.dominio;
 
 public class Main {
     public static void main(String[] args) {
