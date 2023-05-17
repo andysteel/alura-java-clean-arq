@@ -33,6 +33,9 @@ public class Aluno {
     }
 
     public void adicionarTelefone(String ddd, String numero) {
+        if(this.telefones.size() == 2) {
+            throw new IllegalArgumentException("Numero maximo de telefones atingido");
+        }
         this.telefones.add(new Telefone(ddd, numero));
     }
 }
