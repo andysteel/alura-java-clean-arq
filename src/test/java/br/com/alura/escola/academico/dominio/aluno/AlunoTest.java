@@ -1,6 +1,7 @@
 package br.com.alura.escola.academico.dominio.aluno;
 
 import br.com.alura.escola.academico.aplicacao.aluno.matricular.MatricularAlunoDTO;
+import br.com.alura.escola.shared.dominio.CPF;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

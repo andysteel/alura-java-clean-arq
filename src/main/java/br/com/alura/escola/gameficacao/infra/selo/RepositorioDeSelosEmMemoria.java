@@ -1,6 +1,6 @@
 package br.com.alura.escola.gameficacao.infra.selo;
 
-import br.com.alura.escola.academico.dominio.aluno.CPF;
+import br.com.alura.escola.shared.dominio.CPF;
 import br.com.alura.escola.gameficacao.dominio.selo.RepositorioDeSelos;
 import br.com.alura.escola.gameficacao.dominio.selo.Selo;
 
