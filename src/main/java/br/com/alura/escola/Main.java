@@ -1,10 +1,10 @@
 package br.com.alura.escola;
 
-import br.com.alura.escola.aplicacao.aluno.matricular.MatricularAluno;
-import br.com.alura.escola.aplicacao.aluno.matricular.MatricularAlunoDTO;
-import br.com.alura.escola.dominio.PublicadorDeEventos;
-import br.com.alura.escola.dominio.aluno.LogDeAlunoMatriculado;
-import br.com.alura.escola.infra.aluno.RepositorioDeAlunosEmMemoria;
+import br.com.alura.escola.academico.aplicacao.aluno.matricular.MatricularAluno;
+import br.com.alura.escola.academico.aplicacao.aluno.matricular.MatricularAlunoDTO;
+import br.com.alura.escola.academico.dominio.PublicadorDeEventos;
+import br.com.alura.escola.academico.dominio.aluno.LogDeAlunoMatriculado;
+import br.com.alura.escola.academico.infra.aluno.RepositorioDeAlunosEmMemoria;
 
 public class Main {
     public static void main(String[] args) {
